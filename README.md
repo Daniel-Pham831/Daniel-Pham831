@@ -25,4 +25,4 @@
 
 
 <img align="left" alt="GIF" src="https://github.com/Gapur/Gapur/blob/master/coding.gif?raw=true" width="408" height="318" />
-<img align="right" alt="GIF" src="https://github.com/Daniel-Pham831/Daniel-Pham831/blob/main/giphy.gif?raw=true" width="408" height="318" />
+<img align="left" alt="GIF" src="https://github.com/Daniel-Pham831/Daniel-Pham831/blob/main/giphy.gif?raw=true" width="408" height="318" />
