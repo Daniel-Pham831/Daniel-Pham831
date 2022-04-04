@@ -1,7 +1,6 @@
 👋 Hi, I’m @Daniel-Pham831 or Dan for short
 <br/>👀 I’m currently a Game Developer
-<br/>📫 Contact:
-
+<br/>📫 Contact me at:
 <!--END_SECTION:waka-->
 <a href="https://www.facebook.com/horizon.pisces/">
   <img align="left" width="40px" alt="Phúc Phạm (Dan or Daniel) | Facebook" src="https://img.icons8.com/doodle/48/000000/facebook-new.png"/>
