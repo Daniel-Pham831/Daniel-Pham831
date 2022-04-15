@@ -29,5 +29,5 @@
      src="https://github-readme-stats.vercel.app/api?username=Daniel-Pham831&show_icons=true&theme=radical&include_all_commits=true&count_private=true" width="auto" height="auto" />
 
 
-<img align="left" alt="GIF" src="https://github.com/Gapur/Gapur/blob/master/coding.gif?raw=true" width="45%" height="45%" />
-<img align="right" alt="GIF" src="https://github.com/Daniel-Pham831/Daniel-Pham831/blob/main/giphy.gif?raw=true" width="45%" height="45%" />
+<img align="left" alt="GIF" src="https://github.com/Gapur/Gapur/blob/master/coding.gif?raw=true" width="40%" height="40%" />
+<img align="right" alt="GIF" src="https://github.com/Daniel-Pham831/Daniel-Pham831/blob/main/giphy.gif?raw=true" width="40%" height="40%" />
