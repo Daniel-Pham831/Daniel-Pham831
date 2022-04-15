@@ -2,6 +2,8 @@
 <br/>👀 I’m currently a Game Developer
 <br/>📫 Contact me at:
 <!--END_SECTION:waka-->
+
+<div>
 <a href="https://www.facebook.com/horizon.pisces/">
   <img align="left" width="40px" alt="Phúc Phạm (Dan or Daniel) | Facebook" src="https://img.icons8.com/doodle/48/000000/facebook-new.png"/>
 </a>
@@ -13,7 +15,7 @@
 <a href="phamphuc0603@gmail.com">
   <img align="left" width="40px" alt="Phúc Phạm (Dan or Daniel) | Facebook" src="https://img.icons8.com/color/344/gmail-new.png"/>
 </a>
-
+</div>
 
 
 <br />
