@@ -1,6 +1,6 @@
 👋 Hi, I’m @Daniel-Pham831 or Dan for short
 <br/>👀 I’m currently a Game Developer
-<br/>📫 Contact me at:
+<br/>📫 Contact me at: phamphuc0603@gmail.com or
 <!--END_SECTION:waka-->
 
 <div>
@@ -10,10 +10,6 @@
 
 <a href="https://www.youtube.com/channel/UCvrv5d9RL2aJFzRdoryjY8g">
   <img align="left" width="40px" alt="Phúc Phạm (Dan or Daniel) | Facebook" src="https://img.icons8.com/fluency/344/youtube-play.png"/>
-</a>
-
-<a href="phamphuc0603@gmail.com">
-  <img align="left" width="40px" alt="Phúc Phạm (Dan or Daniel) | Facebook" src="https://img.icons8.com/color/344/gmail-new.png"/>
 </a>
 </div>
 
