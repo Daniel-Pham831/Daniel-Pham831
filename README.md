@@ -1,6 +1,6 @@
 👋 Hi, I’m @Daniel-Pham831 or Dan for short
 <br/>👀 I’m currently a Game Developer
-<br/>📫 Contact me at: phamphuc0603@gmail.com or
+<br/>📫 Contact me at: phamphuc0603@gmail.com or https://www.linkedin.com/in/ph%C3%BAc-ph%E1%BA%A1m-4a4a19227/
 <!--END_SECTION:waka-->
 
 <div>
