@@ -26,5 +26,12 @@
   grid-column: 1/-1;" 
      src="https://github-readme-stats.vercel.app/api?username=Daniel-Pham831&show_icons=true&theme=radical&include_all_commits=true&count_private=true" width="auto" height="auto" />
 
+<img style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100% ;
+  grid-column: 1/-1;" 
+     src="https://github-readme-streak-stats.herokuapp.com/?user=daniel-pham831&theme=radical&hide_border=false" width="auto" height="auto" />
+     
 <img align="left" alt="GIF" src="https://github.com/Gapur/Gapur/blob/master/coding.gif?raw=true" width="35%" height="35%" />
 <img align="right" alt="GIF" src="https://github.com/Daniel-Pham831/Daniel-Pham831/blob/main/giphy.gif?raw=true" width="35%" height="35%" />
