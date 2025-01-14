@@ -13,6 +13,10 @@
 </a>
 </div>
 
+<br />
+<br />
+<br />
+
 <picture>
   <source
     srcset="https://github-readme-stats.vercel.app/api?username=Daniel-Pham831&show_icons=true&theme=dark"
