@@ -17,6 +17,8 @@
 <br />
 <br />
 
+<img src="http://github-readme-streak-stats.herokuapp.com?user=Daniel-Pham831" alt="GitHub Streak" />
+
 <picture>
   <source
     srcset="https://github-readme-stats.vercel.app/api?username=Daniel-Pham831&show_icons=true&theme=dark"
