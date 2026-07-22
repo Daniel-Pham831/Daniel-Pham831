@@ -2,7 +2,15 @@
 
 <img src="assets/banner.webp" alt="Dream Chaser — the pixel-art endless runner I led development on" width="100%">
 
-<h2>Phạm Duy Phúc &nbsp;·&nbsp; Dan / Daniel</h2>
+</div>
+
+## Phạm Duy Phúc &nbsp;·&nbsp; Dan / Daniel
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Daniel-Pham831&hide_border=true&background=00000000&stroke=30363D&ring=E8722F&fire=E8722F&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=E8722F&sideLabels=8B949E&dates=8B949E">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Daniel-Pham831&hide_border=true&background=00000000&stroke=D0D7DE&ring=C4451C&fire=C4451C&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=C4451C&sideLabels=636C76&dates=636C76">
+  <img align="right" width="46%" alt="GitHub streak — total contributions, current and longest" src="https://streak-stats.demolab.com/?user=Daniel-Pham831&hide_border=true&background=00000000&stroke=30363D&ring=E8722F&fire=E8722F&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=E8722F&sideLabels=8B949E&dates=8B949E">
+</picture>
 
 <b>Unity Game Developer</b> &nbsp;·&nbsp; Saigon, Vietnam
 
@@ -15,7 +23,7 @@
   <a href="mailto:phamphuc0603@gmail.com"><img alt="Email" src="https://img.shields.io/badge/EMAIL-1B1F27?style=flat-square"></a>
 </p>
 
-</div>
+<br clear="all">
 
 ---
 
@@ -92,17 +100,41 @@ An idle tycoon on an old Saigon food street: build stalls, hire staff, grow a bl
 
 ## Toolbox
 
+**Shipping & live-service**
+
+![Addressables](https://img.shields.io/badge/Addressables-1B1F27?style=flat-square) ![AssetBundles](https://img.shields.io/badge/AssetBundles-1B1F27?style=flat-square) ![IL2CPP](https://img.shields.io/badge/IL2CPP-1B1F27?style=flat-square) ![Assembly Definitions](https://img.shields.io/badge/Assembly%20Definitions-1B1F27?style=flat-square) ![Jenkins](https://img.shields.io/badge/Jenkins-1B1F27?style=flat-square&logo=jenkins&logoColor=white) ![TeamCity](https://img.shields.io/badge/TeamCity-1B1F27?style=flat-square&logo=teamcity&logoColor=white) ![Crashlytics](https://img.shields.io/badge/Crashlytics-1B1F27?style=flat-square&logo=firebase&logoColor=white) ![Remote Config](https://img.shields.io/badge/Remote%20Config-1B1F27?style=flat-square&logo=firebase&logoColor=white) ![Play Console](https://img.shields.io/badge/Play%20Console-1B1F27?style=flat-square&logo=googleplay&logoColor=white) ![App Store Connect](https://img.shields.io/badge/App%20Store%20Connect-1B1F27?style=flat-square&logo=appstore&logoColor=white) ![TestFlight](https://img.shields.io/badge/TestFlight-1B1F27?style=flat-square&logo=apple&logoColor=white) ![Deep links](https://img.shields.io/badge/Deep%20links-1B1F27?style=flat-square)
+
+**Monetization & analytics**
+
+![Unity IAP](https://img.shields.io/badge/Unity%20IAP-1B1F27?style=flat-square) ![Ad mediation](https://img.shields.io/badge/Ad%20mediation-1B1F27?style=flat-square) ![AdMob](https://img.shields.io/badge/AdMob-1B1F27?style=flat-square&logo=googleadmob&logoColor=white) ![ironSource](https://img.shields.io/badge/ironSource-1B1F27?style=flat-square) ![Unity Ads](https://img.shields.io/badge/Unity%20Ads-1B1F27?style=flat-square&logo=unity&logoColor=white) ![Rewarded / interstitial / banner](https://img.shields.io/badge/Rewarded%20%2F%20interstitial%20%2F%20banner-1B1F27?style=flat-square) ![Firebase Analytics](https://img.shields.io/badge/Firebase%20Analytics-1B1F27?style=flat-square&logo=firebase&logoColor=white) ![ByteBrew](https://img.shields.io/badge/ByteBrew-1B1F27?style=flat-square)
+
+**Performance**
+
+![Unity Profiler](https://img.shields.io/badge/Unity%20Profiler-1B1F27?style=flat-square&logo=unity&logoColor=white) ![Memory Profiler](https://img.shields.io/badge/Memory%20Profiler-1B1F27?style=flat-square) ![Frame Debugger](https://img.shields.io/badge/Frame%20Debugger-1B1F27?style=flat-square) ![Draw-call reduction](https://img.shields.io/badge/Draw--call%20reduction-1B1F27?style=flat-square) ![GPU instancing](https://img.shields.io/badge/GPU%20instancing-1B1F27?style=flat-square) ![Static / dynamic batching](https://img.shields.io/badge/Static%20%2F%20dynamic%20batching-1B1F27?style=flat-square) ![Object pooling](https://img.shields.io/badge/Object%20pooling-1B1F27?style=flat-square) ![GC allocation](https://img.shields.io/badge/GC%20allocation-1B1F27?style=flat-square) ![ASTC / ETC2](https://img.shields.io/badge/ASTC%20%2F%20ETC2-1B1F27?style=flat-square) ![Sprite Atlas](https://img.shields.io/badge/Sprite%20Atlas-1B1F27?style=flat-square)
+
 **Engine & gameplay**
 
-![Unity](https://img.shields.io/badge/Unity-1B1F27?style=flat-square&logo=unity&logoColor=white) ![C#](https://img.shields.io/badge/C%23-1B1F27?style=flat-square&logo=dotnet&logoColor=white) ![UniTask](https://img.shields.io/badge/UniTask-1B1F27?style=flat-square) ![UniRx](https://img.shields.io/badge/UniRx-1B1F27?style=flat-square) ![Odin Inspector](https://img.shields.io/badge/Odin%20Inspector-1B1F27?style=flat-square) ![Unity Gaming Services](https://img.shields.io/badge/Unity%20Gaming%20Services-1B1F27?style=flat-square) ![AdMob](https://img.shields.io/badge/AdMob-1B1F27?style=flat-square&logo=googleadmob&logoColor=white) ![IAP](https://img.shields.io/badge/IAP-1B1F27?style=flat-square)
+![Unity](https://img.shields.io/badge/Unity-1B1F27?style=flat-square&logo=unity&logoColor=white) ![C#](https://img.shields.io/badge/C%23-1B1F27?style=flat-square&logo=dotnet&logoColor=white) ![URP](https://img.shields.io/badge/URP-1B1F27?style=flat-square) ![Cinemachine](https://img.shields.io/badge/Cinemachine-1B1F27?style=flat-square) ![Timeline](https://img.shields.io/badge/Timeline-1B1F27?style=flat-square) ![Animator](https://img.shields.io/badge/Animator-1B1F27?style=flat-square) ![Animation Rigging](https://img.shields.io/badge/Animation%20Rigging-1B1F27?style=flat-square) ![Playables](https://img.shields.io/badge/Playables-1B1F27?style=flat-square) ![DOTween](https://img.shields.io/badge/DOTween-1B1F27?style=flat-square) ![Input System](https://img.shields.io/badge/Input%20System-1B1F27?style=flat-square) ![Particle System](https://img.shields.io/badge/Particle%20System-1B1F27?style=flat-square) ![Tilemap](https://img.shields.io/badge/Tilemap-1B1F27?style=flat-square) ![Spine](https://img.shields.io/badge/Spine-1B1F27?style=flat-square)
 
-**Real-time & live-service**
+**UI**
 
-![SpacetimeDB](https://img.shields.io/badge/SpacetimeDB-1B1F27?style=flat-square) ![Rust](https://img.shields.io/badge/Rust-1B1F27?style=flat-square&logo=rust&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-1B1F27?style=flat-square&logo=firebase&logoColor=white) ![Remote Config](https://img.shields.io/badge/Remote%20Config-1B1F27?style=flat-square) ![REST APIs](https://img.shields.io/badge/REST%20APIs-1B1F27?style=flat-square)
+![uGUI](https://img.shields.io/badge/uGUI-1B1F27?style=flat-square) ![TextMeshPro](https://img.shields.io/badge/TextMeshPro-1B1F27?style=flat-square) ![UI Toolkit](https://img.shields.io/badge/UI%20Toolkit-1B1F27?style=flat-square) ![Safe Area](https://img.shields.io/badge/Safe%20Area-1B1F27?style=flat-square) ![Multi-resolution](https://img.shields.io/badge/Multi--resolution-1B1F27?style=flat-square) ![Custom localization](https://img.shields.io/badge/Custom%20localization-1B1F27?style=flat-square)
+
+**Architecture & async**
+
+![UniTask](https://img.shields.io/badge/UniTask-1B1F27?style=flat-square) ![UniRx](https://img.shields.io/badge/UniRx-1B1F27?style=flat-square) ![Zenject](https://img.shields.io/badge/Zenject-1B1F27?style=flat-square) ![Odin Inspector](https://img.shields.io/badge/Odin%20Inspector-1B1F27?style=flat-square) ![ScriptableObject architecture](https://img.shields.io/badge/ScriptableObject%20architecture-1B1F27?style=flat-square) ![Addressable-driven data](https://img.shields.io/badge/Addressable--driven%20data-1B1F27?style=flat-square) ![Newtonsoft.Json](https://img.shields.io/badge/Newtonsoft.Json-1B1F27?style=flat-square)
+
+**Multiplayer & backend**
+
+![Netcode for GameObjects](https://img.shields.io/badge/Netcode%20for%20GameObjects-1B1F27?style=flat-square&logo=unity&logoColor=white) ![Unity Transport](https://img.shields.io/badge/Unity%20Transport-1B1F27?style=flat-square&logo=unity&logoColor=white) ![Unity Gaming Services](https://img.shields.io/badge/Unity%20Gaming%20Services-1B1F27?style=flat-square&logo=unity&logoColor=white) ![Relay](https://img.shields.io/badge/Relay-1B1F27?style=flat-square) ![Lobby](https://img.shields.io/badge/Lobby-1B1F27?style=flat-square) ![Matchmaker](https://img.shields.io/badge/Matchmaker-1B1F27?style=flat-square) ![Leaderboards](https://img.shields.io/badge/Leaderboards-1B1F27?style=flat-square) ![SpacetimeDB](https://img.shields.io/badge/SpacetimeDB-1B1F27?style=flat-square) ![Rust](https://img.shields.io/badge/Rust-1B1F27?style=flat-square&logo=rust&logoColor=white) ![REST APIs](https://img.shields.io/badge/REST%20APIs-1B1F27?style=flat-square)
+
+**Editor tooling & process**
+
+![Custom editor tools](https://img.shields.io/badge/Custom%20editor%20tools-1B1F27?style=flat-square) ![PropertyDrawer / Inspector](https://img.shields.io/badge/PropertyDrawer%20%2F%20Inspector-1B1F27?style=flat-square) ![Git](https://img.shields.io/badge/Git-1B1F27?style=flat-square&logo=git&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-1B1F27?style=flat-square&logo=jira&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-1B1F27?style=flat-square&logo=trello&logoColor=white) ![Agile / Scrum](https://img.shields.io/badge/Agile%20%2F%20Scrum-1B1F27?style=flat-square) ![Code review](https://img.shields.io/badge/Code%20review-1B1F27?style=flat-square)
 
 **Everything else**
 
-![Git](https://img.shields.io/badge/Git-1B1F27?style=flat-square&logo=git&logoColor=white) ![Blender](https://img.shields.io/badge/Blender-1B1F27?style=flat-square&logo=blender&logoColor=white) ![Aseprite](https://img.shields.io/badge/Aseprite-1B1F27?style=flat-square&logo=aseprite&logoColor=white) ![Premiere Pro](https://img.shields.io/badge/Premiere%20Pro-1B1F27?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-1B1F27?style=flat-square&logo=typescript&logoColor=white) ![Java](https://img.shields.io/badge/Java-1B1F27?style=flat-square&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-1B1F27?style=flat-square&logo=cplusplus&logoColor=white)
+![Blender](https://img.shields.io/badge/Blender-1B1F27?style=flat-square&logo=blender&logoColor=white) ![Aseprite](https://img.shields.io/badge/Aseprite-1B1F27?style=flat-square&logo=aseprite&logoColor=white) ![Premiere Pro](https://img.shields.io/badge/Premiere%20Pro-1B1F27?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-1B1F27?style=flat-square&logo=typescript&logoColor=white) ![Java](https://img.shields.io/badge/Java-1B1F27?style=flat-square&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-1B1F27?style=flat-square&logo=cplusplus&logoColor=white)
 
 <br>
 
@@ -130,17 +162,6 @@ Most of my day job lives in private repos, so what's public here is the side of 
 - **[TankTankBum](https://github.com/Daniel-Pham831/TankTankBum)** — a 3D multiplayer tank game
 - **[Multiplayer-Template](https://github.com/Daniel-Pham831/Multiplayer-Template)** — self-made Unity multiplayer starter
 - **[Boidz](https://github.com/Daniel-Pham831/Boidz)** — boids flocking, with an eye on optimisation
-
-<div align="center">
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Daniel-Pham831&hide_border=true&background=00000000&stroke=30363D&ring=E8722F&fire=E8722F&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=E8722F&sideLabels=8B949E&dates=8B949E">
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Daniel-Pham831&hide_border=true&background=00000000&stroke=D0D7DE&ring=C4451C&fire=C4451C&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=C4451C&sideLabels=636C76&dates=636C76">
-  <img alt="GitHub streak" src="https://streak-stats.demolab.com/?user=Daniel-Pham831&hide_border=true">
-</picture>
-
-</div>
 
 ---
 
