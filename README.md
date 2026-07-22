@@ -50,9 +50,9 @@ A pixel endless-runner set in Nguyễn-dynasty Vietnam, built with my art partne
 
 <img src="assets/ball-game.webp" alt="The Ball Game — the fielders screen, showing runtime player placement" width="100%">
 
-**The Ball Game** · *by Playbrk* — **visual simulation layer**
+**The Ball Game by Playbrk** — **visual simulation layer**
 
-A baseball management and tycoon sim shipped at Magmic. I built the layer that turns runtime match data into something you can watch — player placement, visuals, animation timing — plus the narrative 3D cutscenes.
+A baseball management and tycoon sim, published by Magmic. I built the layer that turns runtime match data into something you can watch — player placement, visuals, animation timing — plus the narrative 3D cutscenes.
 
 `Unity` `C#` — iOS / iPad / Mac, 2024
 
