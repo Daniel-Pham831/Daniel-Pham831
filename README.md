@@ -31,7 +31,7 @@ Nearly **5 years** building commercial games for studios in **Canada**, the **UK
 
 **Right now**
 
-- 🎮 &nbsp;Unity developer at **IndiGames** — mobile titles for Japanese clients, live-service on Firebase + Remote Config
+- 🎮 &nbsp;Unity developer at **IndiGames**, on outsourcing work for Japanese clients — currently a 3D character AI chat app
 - 🌐 &nbsp;Building **Magic Monster**, a pet-collector × idle RPG, on a real-time multiplayer backend I wrote in **SpacetimeDB / Rust**
 - 🍜 &nbsp;Solo-developing **Strixel**, an idle tycoon set on an old Saigon food street
 
@@ -49,7 +49,7 @@ Nearly **5 years** building commercial games for studios in **Canada**, the **UK
 
 A pixel endless-runner set in Nguyễn-dynasty Vietnam, built with my art partner Hiệp — just the two of us. Full game architecture and every core gameplay system, prototype through live release.
 
-`Unity` `C#` — 100K installs · 4.7★ · 23.3M impressions
+`Unity` `C#` — 100K installs · 4.6★ · 23.3M impressions
 
 [App Store](https://apps.apple.com/vn/app/id6474929639) · [Apple's story](https://apps.apple.com/story/id1750600803)
 
@@ -65,6 +65,61 @@ A baseball management and tycoon sim, published by Magmic. I built the layer tha
 `Unity` `C#` — iOS / iPad / Mac, 2024
 
 [App Store](https://apps.apple.com/vn/app/the-ball-game-by-playbrk/id6758020837)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="assets/favee.webp" alt="Favee — the feed of shared rooms, a decorated room in 3D, and the avatar clothing shop" width="100%">
+
+**Favee** — **room, dress-up, and nearly all the UI**
+<sub>xRsion, Japan · IndiGames outsourcing</sub>
+
+Collect digital goods, decorate a room with them, dress an avatar, then let other people walk through what you made. I built the grid you place 3D objects onto, the dress-up, the camera and drag-and-drop, and the room-visiting — which renders someone else's room with its *real layout*, not a screenshot. Items live on S3 and arrive as FBX at runtime, so the catalogue grows without shipping a build.
+
+`Unity` `C#` `AWS S3` `Firebase` — shipped 02/2026
+
+[App Store](https://apps.apple.com/jp/app/favee/id6756901256)
+
+</td>
+<td width="50%" valign="top">
+
+<img src="assets/palrace.webp" alt="PalRace — the eight-pet lobby, the countdown, the race with live standings, and the podium" width="100%">
+
+**PalRace** — **speed simulation**
+<sub>nanameue, Japan · IndiGames outsourcing</sub>
+
+Eight pets race, and the server has already decided who wins. The game had been built once and the client turned it down — the races didn't feel like races — because the speed maths was wrong. I rewrote it: every pet gets a speed profile sampleable anywhere on the track, combining pacing, stamina, closing sprint and whether the ground ahead is for running, flying, climbing or swimming.
+
+`Unity` `C#` — in development, inside a 12M-user social app
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="assets/palrace-editor.webp" alt="The custom Unity inspector for PalSpeedProfileSettings, listing its five speed factors" width="100%">
+
+**PalRace** — **the tuning tool**
+
+A *fake-placement* factor keeps the eventual winner out of first place mid-race and randomises how it hides, so nobody learns the tell. The finish always matches the order the server sent — you just can't see it coming. I built this Unity inspector to author the five factors and watch the resulting curves.
+
+`Custom editor tooling` `ScriptableObject`
+
+</td>
+<td width="50%" valign="top">
+
+<img src="assets/scattergories.webp" alt="That's So… 90's — the category round, typing answers against the clock, and head-to-head scoring" width="100%">
+
+**Scattergories Blitz** — **UI · tournament match**
+<sub>Magmic · now live as "That's So… 90's"</sub>
+
+A licensed word game: name a thing in the category before the clock runs out. Magmic has since closed and it lives on reskinned, with the original bundle id still underneath. I handled a lot of the UI and built tournament match — compete on a topic, get ranked. The server was storage only, so the ranking and the save-and-sync were mine to design.
+
+`Unity` `C#` — 4.2★ · 1,800+ ratings
+
+[App Store](https://apps.apple.com/us/app/thats-so-90s/id1458499787)
 
 </td>
 </tr>
@@ -94,7 +149,7 @@ An idle tycoon on an old Saigon food street: build stalls, hire staff, grow a bl
 </tr>
 </table>
 
-> **Also, 2025 → now:** 4+ mobile titles for Japanese clients at IndiGames, 2 shipped. Under NDA, so they can't be shown here — happy to walk through the work in a call.
+> **Also — an AI character companion app, under NDA.** A 3D cartoon character you hold a conversation with; it answers in a synthesised voice. I built the outfit system, the animation and lipsync, a mission system, and the runtime asset pipeline. It ships to mobile *and* WebGL, where models plus textures were crashing the app — TriLib for FBX, a loader I wrote for ASTC textures, caching and versioning, and off-screen unloading took **a character from ~40 MB to ~2 MB**. Also three slot-machine titles at Intouch Games, since delisted.
 
 <br>
 
