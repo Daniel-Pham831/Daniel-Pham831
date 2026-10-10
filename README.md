@@ -12,7 +12,7 @@
   <img align="right" width="46%" alt="GitHub streak — total contributions, current and longest" src="https://streak-stats.demolab.com/?user=Daniel-Pham831&hide_border=true&background=00000000&stroke=30363D&ring=E8722F&fire=E8722F&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=E8722F&sideLabels=8B949E&dates=8B949E">
 </picture>
 
-<b>Unity Game Developer</b> &nbsp;·&nbsp; Saigon, Vietnam
+<b>Senior Unity Game Developer</b> &nbsp;·&nbsp; AI-assisted engineering &nbsp;·&nbsp; Saigon, Vietnam
 
 <i>I make games that actually ship.</i>
 
@@ -27,13 +27,14 @@
 
 ---
 
-Nearly **5 years** building commercial games for studios in **Canada**, the **UK** and **Japan**. I own gameplay systems end to end — architecture, simulation, complex UI, performance — and I take things all the way to the store, not just to a playable build.
+More than **5 years** building commercial games for studios in **Canada**, the **UK** and **Japan**. I own gameplay systems end to end — architecture, simulation, complex UI, performance — and I take things all the way to the store, not just to a playable build. I work agent-first every day — Claude Code, Codex, Hermes Agent — and I build the tooling around them.
 
 **Right now**
 
 - 🎮 &nbsp;Unity developer at **IndiGames**, on outsourcing work for Japanese clients — currently a 3D character AI chat app
-- 🌐 &nbsp;Building **Magic Monster**, a pet-collector × idle RPG, on a real-time multiplayer backend I wrote in **SpacetimeDB / Rust**
-- 🍜 &nbsp;Solo-developing **Strixel**, an idle tycoon set on an old Saigon food street
+- 🌐 &nbsp;Building **Magic Monster**, a pet-collector × idle RPG, on a real-time multiplayer backend I wrote in **SpacetimeDB / Rust** — now being rebuilt on **ManiX**, my own Unity framework
+- 🍜 &nbsp;Solo-developing **Strixel**, an idle tycoon set on an old Saigon food street, rebuilt this year on Unity 6 and UI Toolkit
+- 🤖 &nbsp;Running experiments where AI models play my games — most recently **100 of them in one battle royale**
 
 <br>
 
@@ -130,9 +131,9 @@ A licensed word game: name a thing in the category before the clock runs out. Ma
 
 **Magic Monster** *(working title)* — **systems & backend**
 
-Hatch and evolve pixel pets, send them on idle expeditions, and roam a shared plaza where players see each other but never fight. I lead the systems and the real-time multiplayer backend.
+Hatch and evolve pixel pets, send them on idle expeditions, and roam a shared plaza where players see each other but never fight. I lead the systems and the real-time multiplayer backend — all game state lives in server tables, the client subscribes and calls reducers. Now being rebuilt on ManiX (R3, UniTask, UI Toolkit).
 
-`Unity 6` `URP 2D` `SpacetimeDB (Rust)` — in development
+`Unity 6` `URP 2D` `UI Toolkit` `SpacetimeDB (Rust)` — in development
 
 </td>
 <td width="50%" valign="top">
@@ -141,15 +142,45 @@ Hatch and evolve pixel pets, send them on idle expeditions, and roam a shared pl
 
 **Strixel** — **solo, everything**
 
-An idle tycoon on an old Saigon food street: build stalls, hire staff, grow a block until it hums. Ten months went into the simulation foundation — building, character AI, pathfinding, day/night, economy.
+An idle tycoon on an old Saigon food street: build stalls, hire staff, grow a block until it hums. Ten months went into the simulation foundation — building, character AI, pathfinding, day/night, economy. Rebuilt in 2026 on Unity 6 and UI Toolkit.
 
-`Unity` `C#` — since Jun 2024
+`Unity 6` `C#` `UI Toolkit` — since Jun 2024
 
 </td>
 </tr>
 </table>
 
 > **Also — an AI character companion app, under NDA.** A 3D cartoon character you hold a conversation with; it answers in a synthesised voice. I built the outfit system, the animation and lipsync, a mission system, and the runtime asset pipeline. It ships to mobile *and* WebGL, where models plus textures were crashing the app — TriLib for FBX, a loader I wrote for ASTC textures, caching and versioning, and off-screen unloading took **a character from ~40 MB to ~2 MB**. Also three slot-machine titles at Intouch Games, since delisted.
+
+<br>
+
+## AI & agents
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<img src="assets/better-jev-wins.webp" alt="Better Jev Wins — a fighter's decision panel showing every option the model was offered, with its probability" width="100%">
+
+</td>
+<td width="50%" valign="top">
+
+**Better Jev Wins** — **100 AI models in one battle royale**
+
+A battle-royale simulation that runs headless and deterministic; Unity only renders the match log. The fighters started on a **utility AI** I wrote and measured against a behaviour tree over 40 seeds. Then I handed the decisions to a model — **Jev 1.13** picks whom to attack, what to loot, when to run — one fighter first, then all 100, each with its own personality.
+
+Every answer is recorded, so a match replays byte-identically from its seed. The 100-fighter match took **16,762 decisions and cost $0.77**. What the evals showed: the wording of the goal changed behaviour more than any feature, and giving the model *more* state made it play worse.
+
+`Unity 6` `C#` `WebGL` `LLM evals` — [watch the match on itch.io](https://dan-or-daniel.itch.io/better-jev-wins)
+
+</td>
+</tr>
+</table>
+
+- **Agent-first workflow** — my own codebases (Unity C#, Rust, Python, TypeScript, Swift) are built with Claude Code, Codex and Hermes Agent: sprints and tasks with design docs, review and a scored code-quality gate, packaged as reusable Claude Code plugins and skills, with MCP servers for the Unity Editor
+- **Video Channel Engine** — an automated video pipeline in TypeScript and Remotion where an episode is data: a raw recording goes in, a finished MP4 comes out, captions timed to the narration
+- **Murmur** — an on-device dictation app for macOS in Swift 6, for Vietnamese and English: WhisperKit / Core ML, a personal dictionary, and local-LLM clean-up through MLX
+- **Crypto trading research bot** — Python: a backtester with fees, slippage and look-ahead tests, and 100 paper-trading profiles running around the clock on live prices
 
 <br>
 
@@ -177,11 +208,15 @@ An idle tycoon on an old Saigon food street: build stalls, hire staff, grow a bl
 
 **Architecture & async**
 
-![UniTask](https://img.shields.io/badge/UniTask-1B1F27?style=flat-square) ![UniRx](https://img.shields.io/badge/UniRx-1B1F27?style=flat-square) ![Zenject](https://img.shields.io/badge/Zenject-1B1F27?style=flat-square) ![Odin Inspector](https://img.shields.io/badge/Odin%20Inspector-1B1F27?style=flat-square) ![ScriptableObject architecture](https://img.shields.io/badge/ScriptableObject%20architecture-1B1F27?style=flat-square) ![Addressable-driven data](https://img.shields.io/badge/Addressable--driven%20data-1B1F27?style=flat-square) ![Newtonsoft.Json](https://img.shields.io/badge/Newtonsoft.Json-1B1F27?style=flat-square)
+![UniTask](https://img.shields.io/badge/UniTask-1B1F27?style=flat-square) ![UniRx](https://img.shields.io/badge/UniRx-1B1F27?style=flat-square) ![R3](https://img.shields.io/badge/R3-1B1F27?style=flat-square) ![Zenject](https://img.shields.io/badge/Zenject-1B1F27?style=flat-square) ![Odin Inspector](https://img.shields.io/badge/Odin%20Inspector-1B1F27?style=flat-square) ![ScriptableObject architecture](https://img.shields.io/badge/ScriptableObject%20architecture-1B1F27?style=flat-square) ![Addressable-driven data](https://img.shields.io/badge/Addressable--driven%20data-1B1F27?style=flat-square) ![Newtonsoft.Json](https://img.shields.io/badge/Newtonsoft.Json-1B1F27?style=flat-square)
 
 **Multiplayer & backend**
 
 ![Netcode for GameObjects](https://img.shields.io/badge/Netcode%20for%20GameObjects-1B1F27?style=flat-square&logo=unity&logoColor=white) ![Unity Transport](https://img.shields.io/badge/Unity%20Transport-1B1F27?style=flat-square&logo=unity&logoColor=white) ![Unity Gaming Services](https://img.shields.io/badge/Unity%20Gaming%20Services-1B1F27?style=flat-square&logo=unity&logoColor=white) ![Relay](https://img.shields.io/badge/Relay-1B1F27?style=flat-square) ![Lobby](https://img.shields.io/badge/Lobby-1B1F27?style=flat-square) ![Matchmaker](https://img.shields.io/badge/Matchmaker-1B1F27?style=flat-square) ![Leaderboards](https://img.shields.io/badge/Leaderboards-1B1F27?style=flat-square) ![SpacetimeDB](https://img.shields.io/badge/SpacetimeDB-1B1F27?style=flat-square) ![Rust](https://img.shields.io/badge/Rust-1B1F27?style=flat-square&logo=rust&logoColor=white) ![REST APIs](https://img.shields.io/badge/REST%20APIs-1B1F27?style=flat-square)
+
+**AI & agent tooling**
+
+![Claude Code](https://img.shields.io/badge/Claude%20Code-1B1F27?style=flat-square&logo=claude&logoColor=white) ![Codex](https://img.shields.io/badge/Codex-1B1F27?style=flat-square) ![Hermes Agent](https://img.shields.io/badge/Hermes%20Agent-1B1F27?style=flat-square) ![Agent plugins / skills](https://img.shields.io/badge/Agent%20plugins%20%2F%20skills-1B1F27?style=flat-square) ![MCP](https://img.shields.io/badge/MCP-1B1F27?style=flat-square) ![Multi-agent orchestration](https://img.shields.io/badge/Multi--agent%20orchestration-1B1F27?style=flat-square) ![LLM evals](https://img.shields.io/badge/LLM%20evals-1B1F27?style=flat-square) ![WhisperKit / Core ML](https://img.shields.io/badge/WhisperKit%20%2F%20Core%20ML-1B1F27?style=flat-square) ![MLX](https://img.shields.io/badge/MLX-1B1F27?style=flat-square)
 
 **Editor tooling & process**
 
@@ -189,7 +224,7 @@ An idle tycoon on an old Saigon food street: build stalls, hire staff, grow a bl
 
 **Everything else**
 
-![Blender](https://img.shields.io/badge/Blender-1B1F27?style=flat-square&logo=blender&logoColor=white) ![Aseprite](https://img.shields.io/badge/Aseprite-1B1F27?style=flat-square&logo=aseprite&logoColor=white) ![Premiere Pro](https://img.shields.io/badge/Premiere%20Pro-1B1F27?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-1B1F27?style=flat-square&logo=typescript&logoColor=white) ![Java](https://img.shields.io/badge/Java-1B1F27?style=flat-square&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-1B1F27?style=flat-square&logo=cplusplus&logoColor=white)
+![Blender](https://img.shields.io/badge/Blender-1B1F27?style=flat-square&logo=blender&logoColor=white) ![Aseprite](https://img.shields.io/badge/Aseprite-1B1F27?style=flat-square&logo=aseprite&logoColor=white) ![Premiere Pro](https://img.shields.io/badge/Premiere%20Pro-1B1F27?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-1B1F27?style=flat-square&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-1B1F27?style=flat-square&logo=python&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-1B1F27?style=flat-square&logo=swift&logoColor=white) ![Java](https://img.shields.io/badge/Java-1B1F27?style=flat-square&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-1B1F27?style=flat-square&logo=cplusplus&logoColor=white)
 
 <br>
 
@@ -221,7 +256,7 @@ Most of my day job lives in private repos, so what's public here is the side of 
 ---
 
 <div align="center">
-<sub>Open to interesting Unity, gameplay and multiplayer work — full-time or collaboration.<br>
+<sub>Open to senior Unity, gameplay and multiplayer roles — and to AI engineering and agent-tooling work. Full-time or collaboration.<br>
 <a href="mailto:phamphuc0603@gmail.com">phamphuc0603@gmail.com</a> &nbsp;·&nbsp;
 <a href="https://daniel-pham831.github.io/portfolio/">daniel-pham831.github.io/portfolio</a></sub>
 </div>
